@@ -1,0 +1,23 @@
+.nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    & a:link,
+    & a:visited{color: $color-white;}
+    & li{
+        padding: 3px .5rem;
+        display: inline-block;
+        text-transform: uppercase;
+        transition: all .2s;
+        &:hover{
+            font-size: 120%;
+            font-weight: 700;
+            box-shadow: 0 1.5rem 3rem $color-black;
+            color: $color-primary-dark;
+            transform: skewX(-9deg);
+        }
+    }
+}

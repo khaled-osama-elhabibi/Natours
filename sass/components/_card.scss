@@ -53,7 +53,7 @@
                 to right bottom ,
                 $color-secondary-light, 
                 $color-secondary-dark), 
-            url(/img/nat-5.jpg);
+            url(../img/nat-5.jpg);
         }
         &--2{
             background-image:            
@@ -61,7 +61,7 @@
                 to right bottom ,
                 $color-tertiary-light, 
                 $color-tertiary-dark), 
-            url(/img/nat-4.jpg);
+            url(../img/nat-4.jpg);
         }
         
         &--3{
@@ -70,17 +70,9 @@
                 to right bottom ,
                 $color-primary-light, 
                 $color-primary-dark), 
-            url(/img/nat-5.jpg);
+            url(../img/nat-5.jpg);
         }
     }
-    /*                            
-    <div class="card__heading">
-        <div class="card__heading-span card__heading-span--2">
-            <h4>the forest hiker</h4>
-        </div>
-    </div>
-    */
-
     &__heading{
         width: 70%;
         font-size: 2.8rem;

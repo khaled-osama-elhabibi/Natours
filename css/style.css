@@ -475,8 +475,7 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   opacity: 0;
   visibility: hidden;
-  transition: all .3s;
-  position: relative; }
+  transition: all .3s; }
   .popup:target {
     opacity: 1;
     visibility: visible; }

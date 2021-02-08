@@ -6,7 +6,7 @@
     justify-content: space-between;
     flex-flow: row nowrap;
     & a:link,
-    & a:visited{color: $color-white;}
+    & a:visited{color: $color-white;} 
     & li{
         padding: 3px .5rem;
         display: inline-block;

@@ -230,13 +230,6 @@ body {
   -moz-perspective: 150rem;
   position: relative;
   height: 50rem;
-  /*                            
-    <div class="card__heading">
-        <div class="card__heading-span card__heading-span--2">
-            <h4>the forest hiker</h4>
-        </div>
-    </div>
-    */
   /*-------------------------------------------------------------*/ }
   .card__side {
     height: 50rem;
@@ -273,9 +266,9 @@ body {
     .card__pic--1 {
       background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg); }
     .card__pic--2 {
-      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(/img/nat-4.jpg); }
+      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/nat-4.jpg); }
     .card__pic--3 {
-      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(/img/nat-5.jpg); }
+      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/nat-5.jpg); }
   .card__heading {
     width: 70%;
     font-size: 2.8rem;
@@ -541,7 +534,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(/img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
   background-size: cover;
   background-position: top;
   transform: skewY(-7deg);
@@ -564,7 +557,7 @@ body {
 
 .book {
   height: 50rem;
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.75) 50%, transparent 50%), url(/img/nat-10.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.75) 50%, transparent 50%), url(../img/nat-10.jpg);
   background-size: cover;
   border-radius: 3px;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.4); }
